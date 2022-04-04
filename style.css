@@ -40,6 +40,8 @@ nav{
     align-items: center;
     padding: 0 1rem;
     background-color: #064663;
+    font-size: xx-large;
+    
 }
 .button-field{
     margin: 1rem;
@@ -48,11 +50,29 @@ nav{
     justify-content: flex-start;
     height: 240%;
     background-color: #064663;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+    padding-top: 0.3rem;
+}
+.button{
+    border: #04293A solid;
+    height: 20%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #04293A;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 footer{
    background-color: #04293A;
    text-align: right;
    padding:.2rem 1rem;
 }
-
-
